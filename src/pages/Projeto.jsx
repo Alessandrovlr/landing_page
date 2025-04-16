@@ -1,9 +1,10 @@
 import BreakoutGame from "../components/jogoB/BreakoutGame"
 
+import './Projeto.css';
+
 export const Projeto = () => {
     return (
-        <section>
-                <h1>PAGINA PROJETO</h1>
+        <section className="section-projeto">
                 <BreakoutGame />
         </section>
     )

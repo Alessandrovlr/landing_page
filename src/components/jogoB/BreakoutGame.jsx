@@ -291,7 +291,7 @@ function BreakoutGame() {
   }, []);
 
   return (
-    <div style={{ marginTop: "100px", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+    <div>
       <canvas ref={canvasRef} width="550" height="700" style={{ border: "2px solid", borderRadius: "10px", backgroundColor: "rgb(15,15,15)" }} />
     </div>
   );

@@ -1,7 +1,9 @@
+import './Sobre.css';
+
 export const Sobre = () => {
     return (
-        <section>
-                <h1>PAGINA SOBRE</h1>
+        <section className='section-sobre'>
+                <h1>Sobre Nós</h1>
                 <p>Desenvolvido por Alessandro luini da silva coutinho e João Carlos Formento</p>
                 <h2>Por que criaramos o projeto</h2>
                 <p>
@@ -9,13 +11,12 @@ export const Sobre = () => {
                     A recriação deste jogo tem como propósito explorar e aplicar conceitos fundamentais de programação, manipulação de elementos gráficos via Canvas, controle de eventos do teclado, lógica de colisão, além de reforçar boas práticas com classes e estruturação de código em JavaScript.
                 </p>
                 <h2>Tecnologias usadas</h2>
-                <p>
-                    <ul>
-                        <li>REACT</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                        <li>TAILWIND</li>
+                <p className='lista'>
+                    <ul className='lista-ul'>
+                        <li className='react'>REACT</li>
+                        <li className='html'>HTML</li>
+                        <li className='css'>CSS</li>
+                        <li className='javascript'>JAVASCRIPT</li>
                     </ul>
                 </p>
         </section>

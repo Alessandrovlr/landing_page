@@ -1,0 +1,15 @@
+.bodyLayout{
+    height: 100dvh;
+}
+.bodyLayout nav{
+    height: 5%;
+}
+.bodyLayout main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.bodyLayout footer p{
+    color: aliceblue;
+}
