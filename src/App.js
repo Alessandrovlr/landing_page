@@ -4,7 +4,7 @@ import { Projeto } from './pages/Projeto';
 import { Sobre } from './pages/Sobre';
 import { Layout } from './components/layout/Layout';
 import { Home } from './pages/Home'
-import { Contato } from './pages/Contato';
+import { Contato } from './pages/contato';
 
 function App() {
   return (
