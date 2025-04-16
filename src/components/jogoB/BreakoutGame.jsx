@@ -254,6 +254,9 @@ function BreakoutGame() {
           case 290:
             cor = "purple";
             break;
+          default:
+            cor = 'pink'
+            break
         }
         o.desenha(ctx, cor);
       });
