@@ -1,24 +1,36 @@
-import './Sobre.css';
+
 
 export const Sobre = () => {
     return (
-        <section className='section-sobre'>
-                <h1>Sobre Nós</h1>
-                <p>Desenvolvido por Alessandro luini da silva coutinho e João Carlos Formento</p>
-                <h2>Por que criaramos o projeto</h2>
-                <p>
-                    Este projeto foi desenvolvido com o objetivo de recriar o clássico jogo Breakout, utilizando React, juntamente com JavaScript, HTML5 e CSS. Breakout é um jogo lançado nos anos 70, onde o jogador controla uma plataforma horizontal que deve rebater uma bola, com o objetivo de destruir todos os blocos presentes na tela e acumular pontos.
-                    A recriação deste jogo tem como propósito explorar e aplicar conceitos fundamentais de programação, manipulação de elementos gráficos via Canvas, controle de eventos do teclado, lógica de colisão, além de reforçar boas práticas com classes e estruturação de código em JavaScript.
-                </p>
-                <h2>Tecnologias usadas</h2>
-                <p className='lista'>
-                    <ul className='lista-ul'>
-                        <li className='react'>REACT</li>
-                        <li className='html'>HTML</li>
-                        <li className='css'>CSS</li>
-                        <li className='javascript'>JAVASCRIPT</li>
+        <section className='flex mt-10 p-10 flex-row justify-center items-center bg-[rgb(49,49,49)] rounded-3xl w-2/3 h-[90%] gap-5'>
+
+                <div className="flex flex-col w-1/2 h-[100%] gap-[8%] items-center">
+
+                    <h1 className="m-0 font-mono text-3xl text-bold text-[rgb(240,248,255)] font-bold">Sobre Nós</h1>
+
+                    <p className="text-[rgb(240,248,255)] font-mono">Desenvolvido por Alessandro luini da silva coutinho e João Carlos Formento</p>
+
+                    <h2 className="m-0 font-mono text-3xl text-bold text-[rgb(240,248,255)] ">Tecnologias usadas</h2>
+                    <ul className='list-decimal text-lg font-mono w-1/2'>
+                        <li className='text-purple-500'>Vite</li>
+                        <li className='text-blue-400'>React</li>
+                        <li className='text-orange-600'>HTML</li>
+                        <li className='text-amber-300'>JavaScript</li>
+                        <li className='text-blue-500'>Tailwind CSS</li>
                     </ul>
-                </p>
+
+                </div>
+
+                <div className="flex flex-col w-1/2  h-[100%] gap-[8%]">
+
+                    <h2 className="text-[rgb(240,248,255)] font-mono font-bold text-3xl">Por que criaramos o projeto</h2>
+
+                    <p className="text-[rgb(240,248,255)] font-mono text-sm">
+                        Este projeto foi desenvolvido com o objetivo de recriar o clássico jogo Breakout, utilizando React, juntamente com JavaScript, HTML5 e CSS. Breakout é um jogo lançado nos anos 70, onde o jogador controla uma plataforma horizontal que deve rebater uma bola, com o objetivo de destruir todos os blocos presentes na tela e acumular pontos.
+                        A recriação deste jogo tem como propósito explorar e aplicar conceitos fundamentais de programação, manipulação de elementos gráficos via Canvas, controle de eventos do teclado, lógica de colisão, além de reforçar boas práticas com classes e estruturação de código em JavaScript.
+                    </p>
+                </div>
+                
         </section>
     )
 }
