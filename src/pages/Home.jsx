@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom"
-import './Home.css';
+import '../App.css';
 
 export const Home = () => {
     return (
-        <section className="section-home">
-                <h1>Breakout Legacy</h1>
-                <p>Reviva o clássico. Quebre blocos, marque pontos e desafie seus reflexos!</p>
+        <section className="flex mt-10 p-15 flex-col justify-center items-center bg-[rgb(49,49,49)] rounded-3xl w-1/2 h-[90%] gap-2">
+                <h1 className="m-0 font-mono text-xl text-bold text-[rgb(240,248,255)]">Breakout Legacy</h1>
+                <p className="m-0 font-mono text-[rgb(240,248,255)] w[60%]">Reviva o clássico. Quebre blocos, marque pontos e desafie seus reflexos!</p>
 
-                <p>Este é um projeto visando fazer o conhecido jogo Breakout na tecnologia Javascript. Breakout é um jogo antigo que o objetivo é controlar uma barra horizontal que deve rebater uma bola para destruir todos os blocos e ganhar pontos, o jogo acaba quando a bola cai da tela</p>
-                <img src="/img/jogo.png" alt="imagem ilustrativa do jogo Breakout"/>
-                <br />
-                <Link to='/Projeto'>Veja como funciona</Link>
+                <p className="m-0 font-mono text-[rgb(240,248,255)] w[60%]">Este é um projeto visando fazer o conhecido jogo Breakout na tecnologia Javascript. Breakout é um jogo antigo que o objetivo é controlar uma barra horizontal que deve rebater uma bola para destruir todos os blocos e ganhar pontos, o jogo acaba quando a bola cai da tela</p>
+                <img className="w-[30%] rounded-xl" src="/img/jogo.png" alt="imagem ilustrativa do jogo Breakout"/>
+                <Link className="no-underline text-black bg-[rgb(240,248,255)] rounded-lg p-3 transition duration-500" to='/Projeto'>Veja como funciona</Link>
         </section>
     )
 }

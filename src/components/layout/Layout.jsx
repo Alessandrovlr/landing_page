@@ -13,7 +13,7 @@ export const Layout = () => {
 
                 </main>
 
-              <footer>
+              <footer className="h-7 flex align-bottom justify-center">
 
                     <p>2025 © direitos reservados</p>
 
