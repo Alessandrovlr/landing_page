@@ -236,26 +236,27 @@ function BreakoutGame() {
       array_obstaculos.forEach((o) => {
         let cor = "white";
         switch (o.y) {
-          case 90:
+          case 60:
             cor = "red";
             break;
-          case 130:
+          case 100:
             cor = "orange";
             break;
-          case 170:
+          case 140:
             cor = "yellow";
             break;
-          case 210:
+          case 180:
             cor = "green";
             break;
-          case 250:
+          case 220:
             cor = "blue";
             break;
-          case 290:
+          case 260:
             cor = "purple";
             break;
           default:
-            cor = 'pink'
+            cor  = 'pink';
+            console.log("erro ao adicionar os obstaculos")
             break
         }
         o.desenha(ctx, cor);
@@ -295,7 +296,7 @@ function BreakoutGame() {
 
   return (
     <div>
-      <canvas ref={canvasRef} width="550" height="700" style={{ border: "2px solid", borderRadius: "10px", backgroundColor: "rgb(15,15,15)" }} />
+      <canvas ref={canvasRef} width="550" height="670" style={{ border: "2px solid", borderRadius: "10px", backgroundColor: "rgb(15,15,15)" }} />
     </div>
   );
 }
