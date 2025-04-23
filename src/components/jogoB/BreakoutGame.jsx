@@ -295,9 +295,9 @@ function BreakoutGame() {
   }, []);
 
   return (
-    <div>
-      <canvas ref={canvasRef} width="550" height="670" style={{ border: "2px solid", borderRadius: "10px", backgroundColor: "rgb(15,15,15)" }} />
-    </div>
+    
+      <canvas className="w-[70%]" ref={canvasRef} width="550" height="670" style={{ border: "2px solid", borderRadius: "10px", backgroundColor: "rgb(15,15,15)" }} />
+    
   );
 }
 
