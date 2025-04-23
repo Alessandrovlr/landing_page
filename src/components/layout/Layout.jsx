@@ -5,7 +5,7 @@ export const Layout = () => {
   return (
     <div className="h-[100dvh]">
       <Menu />
-      <main className="flex flex-col items-center h-[90%]">
+      <main className="flex flex-col items-center h-[87%]">
         <Outlet />
       </main>
       <footer className="h-7 flex align-bottom justify-center">
