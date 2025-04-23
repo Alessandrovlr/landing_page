@@ -5,6 +5,7 @@ import { Sobre } from './pages/Sobre';
 import { Layout } from './components/layout/Layout';
 import { Home } from './pages/Home'
 import { Contato } from './pages/contato';
+import { PageNotFound } from './pages/PageNotFound';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Route path='/projeto' element={<Projeto/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
             <Route path='/contato' element={<Contato/>}/>
-            <Route path='/*' element={<h1>404 Page Not Found</h1>}/>
+            <Route path='/*' element={<PageNotFound/>}/>
             
           </Route>
 
