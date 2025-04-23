@@ -1,12 +1,25 @@
-# React + Vite
+# Breakout Legacy
+Reviva o clássico. Quebre blocos, marque pontos e desafie seus reflexos!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto do jogo
 
-Currently, two official plugins are available:
+Este é um projeto visando fazer o conhecido jogo Breakout na tecnologia Javascript. Breakout é um jogo antigo que o objetivo é controlar uma barra horizontal que deve rebater uma bola para destruir todos os blocos e ganhar pontos, o jogo acaba quando a bola cai da tela
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `Como jogar:`
 
-## Expanding the ESLint configuration
+* Como Começar: Assim que estiver pronto para começar o jogo pressione a tecla "W" para a bolinha começar a se movimentar.
+* Movimente a barra: A ideia do jogo e utilizar da barra para que redirecione com a plataforma a bola para os blocos e não deixe ela cair da tela, para movimentar a barra utilize as teclas "A" e "D" do teclado.
+* Objetivo: Seu objetivo e não deixar a bola cair da tela e conseguir a maior quantidade de pontos possível.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### `Link do Site`
+
+entre no site atravez do link [Link Projeto](https://jogolanding.netlify.app)
+
+### `Tecnologias usadas`
+
+* React
+* HTML
+* JavaScript
+* CSS
+* Vite
+* Tailwind
