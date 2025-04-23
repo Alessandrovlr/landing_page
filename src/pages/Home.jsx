@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import "../App.css";
 
 export const Home = () => {
   return (
     <section className="flex mt-10 p-10 flex-row justify-center items-center bg-[rgb(49,49,49)] rounded-3xl w-2/3 h-[90%] gap-[10%]">
       <div className="h-[100%] flex flex-col justify-around items-center">
-        <h1 className="m-0 font-mono text-xl text-bold text-[rgb(240,248,255)]">
+        <h1 className="m-0 font-mono text-2xl font-bold text-[rgb(136,83,221)]">
           Breakout Legacy
         </h1>
         <p className="m-0 font-mono text-[rgb(240,248,255)] w[60%]">
@@ -20,7 +19,7 @@ export const Home = () => {
           tela
         </p>
         <Link
-        className="no-underline text-black bg-[rgb(240,248,255)] rounded-lg p-3 transition duration-500 w-1/2"
+        className="no-underline text-white bg-[rgb(136,83,221)] rounded-lg p-3 transform duration-200 w-1/2 hover:w-[70%] hover:bg-[#a676f3]"
         to="/Projeto"
       >
         Veja como funciona
