@@ -9,7 +9,7 @@ export const Layout = () => {
         <Outlet />
       </main>
       <footer className="h-7 flex align-bottom justify-center">
-        <p className="text-[aliceblue]">2025 © direitos reservados</p>
+        <p className="text-black dark:text-[aliceblue]">2025 © direitos reservados</p>
       </footer>
     </div>
   );
