@@ -1,7 +1,7 @@
 export const Contato = () => {
   return (
     <section className="flex mt-10 p-10 flex-col items-center bg-[rgb(49,49,49)] rounded-3xl w-2/3 h-[80%] gap-2">
-        <h1  className="text-3xl font-mono text-[rgb(240,248,255)]">Contados dos devs</h1>
+        <h1  className="text-3xl font-mono text-[rgb(240,248,255)]">Contatos dos devs</h1>
 
       <div className="flex w-full justify-center items-center">
         <div className="flex flex-col w-[100%] h-[40%] gap-4">
