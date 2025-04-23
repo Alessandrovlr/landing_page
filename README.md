@@ -1,5 +1,4 @@
 # Breakout Legacy
-
 Reviva o clássico. Quebre blocos, marque pontos e desafie seus reflexos!
 
 ## Sobre o projeto do jogo
@@ -14,12 +13,13 @@ Este é um projeto visando fazer o conhecido jogo Breakout na tecnologia Javascr
 
 ### `Link do Site`
 
-entre no site atravez do link [Landing_Page](https://jogolanding.netlify.app)
+entre no site atravez do link [Link Projeto](https://jogolanding.netlify.app)
 
 ### `Tecnologias usadas`
 
-* react
+* React
 * HTML
 * JavaScript
-* css
-
+* CSS
+* Vite
+* Tailwind
