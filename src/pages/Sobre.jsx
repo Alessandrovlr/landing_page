@@ -4,11 +4,15 @@ export const Sobre = () => {
     return (
         <section className='flex mt-10 p-10 flex-row justify-center items-center bg-[rgb(49,49,49)] rounded-3xl w-2/3 h-[90%] gap-5'>
 
-                <div className="flex flex-col w-1/2 h-[100%] gap-[8%] items-center">
+                <div className="flex flex-col w-1/2 h-[100%] gap-[5%] items-center">
 
                     <h1 className="m-0 font-mono text-3xl text-bold text-[rgb(136,83,221)] font-bold">Sobre Nós</h1>
 
-                    <p className="text-[rgb(240,248,255)] font-mono">Desenvolvido por Alessandro luini da silva coutinho e João Carlos Formento</p>
+                    <div className="text-[rgb(240,248,255)] font-mono">
+                        <p>Desenvolvido por</p>
+                        <p>Alessandro Coutinho</p>
+                        <p>João Carlos Formento</p>
+                    </div>
 
                     <h2 className="m-0 font-mono text-3xl font-bold text-[rgb(136,83,221)] ">Tecnologias usadas</h2>
                     <ul className='list-decimal text-lg font-mono w-1/2'>
